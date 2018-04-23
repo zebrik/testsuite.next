@@ -31,8 +31,8 @@
     </extension>
 
     <extension qualifier="screenshooter">
-        <property name="takeOnEveryAction">false</property>
-        <property name="takeBeforeTest">false</property>
+        <property name="takeOnEveryAction">true</property>
+        <property name="takeBeforeTest">true</property>
         <property name="takeAfterTest">${take.screenshot.after.each.test}</property>
         <property name="takeWhenTestFailed">true</property>
     </extension>
