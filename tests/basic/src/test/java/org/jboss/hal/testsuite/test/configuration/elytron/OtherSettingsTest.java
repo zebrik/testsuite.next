@@ -31,6 +31,7 @@ import org.jboss.hal.testsuite.fragment.EmptyState;
 import org.jboss.hal.testsuite.fragment.FormFragment;
 import org.jboss.hal.testsuite.fragment.TableFragment;
 import org.jboss.hal.testsuite.page.configuration.ElytronOtherSettingsPage;
+import org.jboss.hal.testsuite.util.Library;
 import org.junit.AfterClass;
 import org.junit.Assert;
 import org.junit.Before;
@@ -350,6 +351,7 @@ public class OtherSettingsTest {
 
     @Before
     public void setUp() throws Exception {
+        Library.letsSleep(3000);
         page.navigate();
     }
 
